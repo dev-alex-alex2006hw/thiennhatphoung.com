@@ -147,14 +147,14 @@ ul.topNav  {
     background-image:url(../images/logo.png);
 	background-repeat:no-repeat;
 	width:354px;
-	height:68px;
-	margin-left:4px;
-	margin-top:42px;
+	height:200px;
+	margin-left:100px;
+	margin-top: 0px;
 }
 .logo a{
 	text-indent:-999999px;
 	width:354px;
-	height:68px;
+	height:100px;
 	display:block;
 }
 .h4 {
