@@ -9,6 +9,7 @@ echo "Starting all processes owned by $PWD ..."
 npm install
 bower install
 npm install && bower install
+npm run build
 ./node_modules/gatsby/bin/gatsby.js develop --port $PORT
 
 #MONGO_URL=mongodb://10.101.101.3:27017/tnp $HOME/.meteor/meteor --production --settings $PWD/settings.json --port $PORT

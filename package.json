@@ -14,7 +14,7 @@
     "lint": "./node_modules/.bin/eslint --ext .js,.jsx --ignore-pattern public .",
     "test": "echo \"Error: no test specified\" && exit 1",
     "deploygh": "npm run clean;./node_modules/gatsby/bin/gatsby.js build --prefix-links && gh-pages -d public",
-    "deploy": "npm run clean;./node_modules/gatsby/bin/gatsby.js build --prefix-links;git add -A .;git commit -m `date +%Y%m%d%s`;git tag -a `date +%Y%m%d%s` -m `date +%Y%m%d%s`;git push --follow-tags"
+    "deploy": "git add -A .;git commit -m `date +%Y%m%d%s`;git tag -a `date +%Y%m%d%s` -m `date +%Y%m%d%s`;git push --follow-tags"
   },
   "keywords": [
     "gatsby",
