@@ -4,7 +4,7 @@
   "description": "Simple starter for Gatsby",
   "main": "n/a",
   "scripts": {
-    "start": "node app/app.js",
+    "start": "npm run build;node app/app.js",
     "develop": "node ./cfPort > ./PORT;npm run build;./node_modules/gatsby/bin/gatsby.js develop --port `cat ./PORT` &",
     "build": "npm run clean;./node_modules/gatsby/bin/gatsby.js build &",
     "clean:public": "rm -rf public",
